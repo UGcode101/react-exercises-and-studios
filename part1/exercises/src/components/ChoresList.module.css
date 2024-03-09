@@ -1,7 +1,20 @@
 .choresText {
-   color: black;
+   color: rgb(49, 24, 161);
 }
 
 .choresHeading {
-   color: black;
+  font-size: 24px; 
+  text-decoration: underline; 
+  color: #34568B; 
+}
+
+.choresItem {
+  font-style: italic; 
+  color: #8A2BE2; 
+  font-size: 18px; 
+}
+
+
+body {
+  font-family: 'Arial', sans-serif; 
 }
