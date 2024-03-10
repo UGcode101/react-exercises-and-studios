@@ -14,12 +14,12 @@ You will then need to select the `JavaScript` variant.
 
 Now that your project has scaffolded you can navigate into the project root directory and run the following commands:
 
-```bash
+```shell
 npm install
 ```
 
-```bash
-npm run dev
+```shell
+npm start
 ```
 
 You can view some useful Shortcuts if you press `h`
