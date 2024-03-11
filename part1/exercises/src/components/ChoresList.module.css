@@ -1,19 +1,23 @@
 .choresText {
-   color: rgb(49, 24, 161);
+  color: rgb(49, 24, 161);
+  text-align: left; 
 }
 
 .choresHeading {
-  font-size: 1.3vw; 
-  text-decoration: underline; 
-  color: #34568B; 
+  font-size: 1.3vw;
+  text-decoration: underline;
+  color: #34568B;
+  text-align: left; 
 }
 
 .choresItem {
-  font-style: italic; 
-  color: #8A2BE2; 
-  font-size: 1.3vw; 
+  font-style: italic;
+  color: #8A2BE2;
+  font-size: 1.3vw;
+  text-align: left; 
 }
 
 body {
-  font-family: 'Arial', sans-serif; 
+  font-family: 'Arial', sans-serif;
+  text-align: left; 
 }
