@@ -7,8 +7,8 @@ import RecipePhoto from './components/Photos';
 function App() {
   return (
     <div className="App">
-      <h1>Ground Stir Fry Pork Recipe</h1> {/* Updated to include the recipe title correctly */}
-      <div>
+      <h1>Ground Stir Fry Pork Recipe</h1>
+      <div className="recipePhotoBlock"> 
         <RecipePhoto />
         <div>
           <RecipeDescription />

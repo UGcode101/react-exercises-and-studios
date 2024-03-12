@@ -21,7 +21,7 @@ class RecipeDescription extends React.Component {
     render() {
         return (
             <div> 
-                <div>    
+                <div> 
                     <p>Taiwanese Style Traditional Stir Fry</p>
                 </div>
                 <RecipeAuthor />

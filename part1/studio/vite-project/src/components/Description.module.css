@@ -6,3 +6,9 @@ justify-content: space-evenly;
 .imageUpdates {
    object-fit: contain;
 }
+
+.descriptionText {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+}
