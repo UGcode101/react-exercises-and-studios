@@ -1,9 +1,19 @@
-function IngredientList() {
-   return;
- }
- 
- export default IngredientList;
- 
-//import json file for the data
-//use a nested map to get inside the inner array
- 
+import React from 'react';
+import recipeData from './recipe.json'; 
+
+const IngredientList = (props) => {
+  const { ingredients } = props;
+
+  return (
+    <div>
+      <h3>Ingredients</h3>
+      <ul>
+        {ingredients.map((ingredient, index) => (
+          <li key={index}>{ingredient}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default IngredientList;

@@ -1,8 +1,12 @@
-import recipedata from "./recipe.json";
+import React from 'react';
+import recipeData from "./recipe.json";
+import './styling.css'; 
 
-function RecipeName() {
-  return recipedata;
-}
+const RecipeName = (props) => {
+  const { name } = props;
+
+  return <h1>{name}</h1>;
+};
 
 export default RecipeName;
 
